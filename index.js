@@ -36,7 +36,7 @@ function getWeather() {
 
         // const conditionText = data.current.condition.text.toLowerCase();
         if (conditionText.includes("rain")) {
-            document.body.style.backgroundImage = 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("image/rain.webp")';
+            document.body.style.backgroundImage = 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("image/rain.webp")';
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.color = "rgb(50, 249, 140)";
             document.body.style.backgroundSize = "100% 800px";
